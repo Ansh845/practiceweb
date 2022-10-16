@@ -303,13 +303,13 @@ body{
       background-color: white;
       text-align: center;
       font-size: 90px;
-      margin-right: 0%;
+      margin: 0%;
 }
 body{
     background-color: rgb(199, 126, 126);
     background-position: 0%;
     margin: 2mm;
-    margin-right: 0%;
+    margin: 0%;
 }   
 
 .animation{
@@ -325,7 +325,7 @@ nav{
     display:flex;
     padding: 3px;
     margin: 0%;
-    margin-left: 250px; 
+    margin-left: 175px; 
 }
 .nav:hover{
     color: red;
@@ -335,5 +335,117 @@ nav{
 }
 div{
   margin: 10%;
+}
+.P1
+{
+    border: black 8px solid;
+    overflow: auto;
+    margin-bottom: 1cm;
+    height: 420px;
+    width: 500px;
+    padding-bottom: 1cm;
+    margin-left: 0.20cm;
+    margin-right: 0.60cm;
+    background-color: lightseagreen;
+    border-radius: 12%;
+    border-style: solid;
+    transition:   background-color 0.50s, border-radius 1s;
+}
+.people1{
+    margin-left: 32mm;
+    font-size: 50px;
+    text-align: center;
+    padding: 0mm;
+    border: black solid 2mm;
+    color: black;
+    margin-right: 2cm;
+
+}
+.P2
+{
+    border: black 8px solid;
+    overflow: auto;
+    margin-bottom: 1cm;
+    height: 420px;
+    width: 500px;
+    padding-bottom: 1cm;
+    margin-left: 0.20cm;
+    margin-right: 0.60cm;
+    background-color: lightseagreen;
+    border-radius: 12%;
+    border-style: solid;
+    transition:   background-color 0.50s, border-radius 1s;
+}
+
+.P3
+{
+    border: black 8px solid;
+    overflow: auto;
+    margin-bottom: 1cm;
+    height: 420px;
+    width: 500px;
+    padding-bottom: 1cm;
+    margin-left: 0.20cm;
+    margin-right: 0.60cm;
+    background-color: lightseagreen;
+    border-radius: 12%;
+    border-style: solid;
+    transition:   background-color 0.50s, border-radius 1s;
+}
+
+.P4
+{
+    border: black 8px solid;
+    overflow: auto;
+    margin-bottom: 1cm;
+    height: 420px;
+    width: 500px;
+    padding-bottom: 1cm;
+    margin-left: 0.20cm;
+    margin-right: 0.60cm;
+    background-color: lightseagreen;
+    border-radius: 12%;
+    border-style: solid;
+    transition:   background-color 0.50s, border-radius 1s;
+}
+.animation{
+    font-size: 50px;
+    color: black;
+    padding: 0%;
+    border: black solid 0.2cm;
+    animation: bouncing 4s infinite;
+}
+@keyframes bouncing {
+    0%{
+        margin-left: 0px;
+       border-radius: 50%;
+       margin-top: 0%;
+       margin-right: 5cm;
+       background-color: rgb(223, 223, 68);
+    }
+    25%{
+        border-radius: 0%;
+        background-color: white;
+    }
+    50%{
+        margin-right: 0px;
+        border-radius: 50%;
+        margin-top: 0%;
+        margin-left: 5cm;
+        background-color: rgb(206, 126, 112);
+        
+    }
+    75%{
+        border-radius: 0%;
+        background-color: white;
+    }
+  
+    100%{
+        margin-left: 0%;
+        border-radius: 50%;
+        margin-right: 5cm;
+        margin-top: 0%;
+        background-color: rgb(223, 223, 67);
+    }
 }
 }
